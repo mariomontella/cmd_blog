@@ -2,7 +2,7 @@ import type { ImageMetadata } from "@astrojs/image/dist/vite-plugin-astro-image"
 // @ts-ignore
 import image from "../assets/social.png";
 // @ts-ignore
-import pic from "../assets/ascii.png";
+import pic from "../assets/me.png";
 
 export interface Author {
     firstname: string;
@@ -32,9 +32,9 @@ export interface Site {
 
 export const site: Site = {
     lang: "en",
-    rssTitle: "Onadrog's blog posts",
-    siteName: "Cmd_Theme",
-    title: "Welcome to my personal website.",
+    rssTitle: "Mario blog posts",
+    siteName: "NetworkMario",
+    title: "Welcome to my website.",
     description:
         "This is my personal website, where I post news and some other cool stuff.",
     image: image,
@@ -43,13 +43,13 @@ export const site: Site = {
         os: "ArchLinux",
         profilePic: pic,
         shell: "Zsh",
-        bio: "I'm a web developer who loves making stuff and woodworking.",
-        firstname: "Sébastien",
-        lastname: "Gordano",
+        bio: "Hi, I'm Mario, a technology enthusiast. I love exploring the world of programming and closely following the latest technology trends. With the combination of creativity and technical skill, I am always looking for new challenges and exciting projects. Welcome to my digital world!",
+        firstname: "Mario",
+        lastname: "Montella",
         socials: [
             {
                 name: "github",
-                link: "https://github.com/onadrog",
+                link: "https://github.com/mariomontella",
             },
         ],
     },

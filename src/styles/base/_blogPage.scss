@@ -1,3 +1,6 @@
-.main {
+.main-blog {
     display: block;
+    width: 100%; /* Assicurati che la larghezza sia impostata correttamente */
+    margin: 0; /* Rimuovi i margini per evitare centrature non intenzionali */
+    text-align: left; /* Allinea il testo a sinistra se necessario */
 }
